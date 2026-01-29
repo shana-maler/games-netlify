@@ -1,5 +1,5 @@
 $(() => {
-    const wordsToChooseFrom = ['SIMCHA','HOUSE','GLASSES','SHIRT','JACKET','HELLO'];
+    const wordsToChooseFrom = ['SMILE','HOUSE','GLASSES','SHIRT','JACKET', 'HELLO', 'WATER','COMPUTER','DRIVEWAY','MARKERS','FLOWERS','SNACK','TOWEL','TISSUES','CHAIR','PENCIL','FRIDGE','FREEZER','BRIDGE','COUCH','COFFEE','CABINET','PRESIDENT','HEALTHY','DRIVE','LIGHT','FLIGHT','WHISPER'];
     const hangManWord = wordsToChooseFrom[Math.floor(Math.random() * wordsToChooseFrom.length)].split('')
 
     const allowedOuts = 10;
